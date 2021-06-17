@@ -7,3 +7,4 @@ It is a Self-supervised learning frame interpret and some notes.
 
 ## Part 1 整体架构
 
+![image](frame_img/Lark20210617-144451.png)
