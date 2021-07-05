@@ -1,0 +1,26 @@
+[cloudera-manager]
+
+name = Cloudera Manager, Version 6.2.3
+
+# baseurl = http://ro-bucharest-repo.bigstepcloud.com/cloudera-repos/cm5/redhat/7/x86_64/cm/5.15.0/
+
+baseurl = http://ro-bucharest-repo.bigstepcloud.com/cloudera-repos/cm6/redhat/7/x86_64/cm/6.2.0/
+
+# gpgkey = http://ro-bucharest-repo.bigstepcloud.com/cloudera-repos/cm5/redhat/7/x86_64/cm/RPM-GPG-KEY-cloudera
+
+gpgkey = http://ro-bucharest-repo.bigstepcloud.com/cloudera-repos/cm6/redhat/7/x86_64/cm/RPM-GPG-KEY-cloudera
+gpgcheck = 1
+
+
+[cloudera-cdh6]
+
+name = cloudera-cdh6, Version 6.2.3
+
+# baseurl = http://ro-bucharest-repo.bigstepcloud.com/cloudera-repos/cm5/redhat/7/x86_64/cm/5.15.0/
+
+baseurl = http://ro-bucharest-repo.bigstepcloud.com/cloudera-repos/cdh6/redhat/7/x86_64/cdh/6.2.0/
+
+# gpgkey = http://ro-bucharest-repo.bigstepcloud.com/cloudera-repos/cm5/redhat/7/x86_64/cm/RPM-GPG-KEY-cloudera
+
+gpgkey = http://ro-bucharest-repo.bigstepcloud.com/cloudera-repos/cdh6/redhat/7/x86_64/cdh/RPM-GPG-KEY-cloudera
+gpgcheck = 1
