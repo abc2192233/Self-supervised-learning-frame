@@ -80,6 +80,15 @@ Flink通过调用python计算模块实现实时数据处理。
 6. 数据集市应用层数据结构设计。
 
 
+## 后续
+
+### 2021.07.06
+
+1.之前采用的是ambari,但是ambari的一些组件可能需要源码级的改造，例如Kafka集群接入zookeeper集群的bootstrapServer就要先自行搭建kafka broker集群，在接入到ambari，然后从ambari再将kafka接入到zookeeper，逻辑没问题，但是时间成本太高，目前是准备换为离线版CDH，后续新版本更新了再迁移。
+
+2.Kettle目前数据抽取工作已完成，后续转入至Kafka和Hive还需在考虑，目前还存在问题，离线计算数据仓库是从Kettle直接接入还是由Kettle统一转入Kafka再从Kafka写入。
+
+3.流式计算问题，如何做出一个真正的流式计算平台。
 
 
 
